@@ -1,0 +1,17 @@
+<h2>Add Articles</h2>
+<hr>
+<form action="" (submit)="create()">
+  <div class="form-group">
+    <label>Name
+      <input type="text" class="form-control" placeholder="name" [(ngModel)]="article.name" name="name">
+    </label>
+  </div>
+  <div class="form-group">
+    <label>URL
+      <input type="text" class="form-control" placeholder="url" [(ngModel)]="article.url" name="url">
+    </label>
+  </div>
+  <div class="form-group">
+    <button class="btn btn-primary">Save</button>
+  </div>
+</form>

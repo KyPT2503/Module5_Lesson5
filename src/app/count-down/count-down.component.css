@@ -1,0 +1,9 @@
+.show-time {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  color: white;
+  background-color: cornflowerblue;
+  text-align: center;
+  font-size: 30px;
+}

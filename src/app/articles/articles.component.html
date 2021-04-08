@@ -1,0 +1,15 @@
+<h2>Show Articles</h2>
+<hr>
+<div *ngFor="let article of articles">
+  <table>
+    <tr>
+      <th>Name</th>
+      <td>{{article.name}}</td>
+    </tr>
+    <tr>
+      <th>Url</th>
+      <td><a [href]="article.url">{{article.url}}</a></td>
+    </tr>
+  </table>
+  <hr>
+</div>

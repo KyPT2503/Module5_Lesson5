@@ -1,0 +1,11 @@
+.for-rate{
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  color: white;
+  background-color: darkgray;
+  text-align: center;
+  font-size: 30px;
+  float: left;
+  margin-right: 3px;
+}
